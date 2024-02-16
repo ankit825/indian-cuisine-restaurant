@@ -1,0 +1,156 @@
+:root {
+  --primary-bg: #242526;
+  --secondary-bg: #fff;
+  --primary-text-color: #555;
+  --secondary-text-color: #cecece;
+  --border-radius: 8px;
+  --speed: 500ms;
+}
+
+.logo {
+  top: 0;
+}
+.uli ul {
+  margin-right: 35px;
+  font-size: large;
+  font-weight: bolder;
+  font-family: restaurant;
+}
+/* .uli img {
+  height: 200px;
+  width: 150px;
+} */
+.modal {
+  background-color: black;
+}
+.logo {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+.btn1 {
+  border-radius: 0 !important;
+  background-color: rgb(127, 194, 127);
+  margin-right: 9px;
+  /* padding: 5px; */
+  /* width: 100px !important; */
+  transform: translate(0, 4px);
+}
+.nav-item {
+  margin-right: 66px !important;
+}
+.nav-link {
+  color: rgb(194, 19, 19) !important;
+}
+.icon-acc {
+  height: 50px !important;
+  width: 50px !important;
+  margin-right: 9px;
+  transform: translate(0, 4px);
+}
+ul {
+  list-style: none;
+}
+
+.dropDown-menu a {
+  text-decoration: none;
+}
+
+/* .menu-trigger img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #fff;
+} */
+
+.dropDown-menu {
+  position: absolute !important;
+  top: 100px !important;
+  right: 20px !important;
+  background-color: #fff !important;
+  border-radius: var(--border-radius) !important;
+  padding: 10px 20px !important;
+  width: 200px !important;
+}
+
+.dropDown-menu::before {
+  content: "";
+  position: absolute !important;
+  top: -5px !important;
+  right: 20px !important;
+  height: 20px !important;
+  width: 20px !important;
+  background: var(--secondary-bg) !important;
+  transform: rotate(45deg) !important;
+}
+
+.dropDown-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: var(--speed) ease;
+}
+
+.dropDown-menu.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(--speed) ease;
+}
+
+.dropDown-menu h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--primary-text-color);
+  line-height: 1.2rem;
+}
+
+.dropDown-menu h3 span {
+  font-size: 14px;
+  color: var(--secondary-text-color);
+  font-weight: 400;
+}
+
+.dropDown-menu ul li {
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  font-family: restaurant;
+}
+
+.dropDown-menu ul li:hover a {
+  color: rgb(212, 33, 9);
+  cursor: pointer;
+}
+
+.dropdown-menu ul li:hover img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.dropDownItem {
+  display: flex;
+  margin: 10px auto;
+}
+
+.dropDownItem img {
+  max-width: 20px;
+  margin-right: 10px;
+  opacity: 0.5;
+  transition: var(--speed);
+  margin: 0 !important;
+}
+
+.dropDownItem a {
+  max-width: 100px;
+  margin-left: 10px;
+  transition: var(--speed);
+}

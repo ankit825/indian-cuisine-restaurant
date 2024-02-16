@@ -1,0 +1,35 @@
+.bg {
+  margin-top: 100px;
+}
+.bg h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 80px;
+  font-family: "restaurant";
+  transform: translate(0px, 60px);
+}
+.bg p {
+  transform: translate(0px, 60px);
+}
+
+.bg button {
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 300px;
+  margin-left: 20px;
+  transform: translate(0px, 75px);
+  &:hover {
+    background-color: orangered;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bg h1 {
+    font-size: 54px !important;
+  }
+  .bg p {
+  }
+  .bg button {
+    width: 200px;
+  }
+}

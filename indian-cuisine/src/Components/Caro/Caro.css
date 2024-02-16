@@ -1,0 +1,42 @@
+.img-fluid {
+  /* flex-shrink: 0 !important;
+  -webkit-flex-shrink: 0;
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0;
+  object-fit: conver; */
+  /* position: absolute; */
+}
+.caro {
+  /* width: 300px;
+  
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(); */
+ background: linear-gradient(rgba(0, 0, 0, 0.345), rgba(0, 0, 0, 0)),
+    url("../../../public//myimg/brooke-lark-HlNcigvUi4Q-unsplash.jpg"); 
+  height: 550px;
+  transform: translate(0, 10px);
+}
+.caro1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.345), rgba(0, 0, 0, 0)),
+    url("../../../public//myimg/brooke-lark-M4E7X3z80PQ-unsplash.jpg");
+
+  background-size: 100% 100% !important;
+
+  height: 550px;
+}
+.caro2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.345), rgba(0, 0, 0, 0)),
+    url("../../../public//myimg/brenna-huff-MBnj72Uc-iQ-unsplash.jpg");
+
+  background-size: 100% 100% !important;
+  height: 550px;
+}
+.caro3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.345), rgba(0, 0, 0, 0)),
+    url("../../../public//myimg/jason-leung-poI7DelFiVA-unsplash.jpg");
+
+  background-size: 100% 100% !important;
+  height: 550px;
+}

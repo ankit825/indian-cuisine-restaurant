@@ -1,0 +1,61 @@
+.app .content-4-row {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 96%;
+  background-color: rgb(250, 245, 239);
+  height: 500px;
+}
+#heading {
+  transform: translate(0px, 12%);
+}
+.content4-col1 h4 {
+  font-size: 45px;
+
+  font-family: "restaurant";
+  color: rgb(10, 116, 174);
+  padding-bottom: 30px;
+  text-align: center;
+}
+.content4-col1 h6 {
+  font-size: 32px;
+
+  font-family: "restaurant";
+  color: rgb(10, 116, 174);
+  padding-bottom: 30px;
+  text-align: center;
+}
+.content-4-row .content4-col1 {
+  margin: auto;
+}
+.content4-button {
+  border-radius: 50%;
+  background-color: rgb(10, 116, 174);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  height: 120px;
+  width: 120px;
+  margin-top: 20px;
+  transform: translate(30px, 40%);
+}
+@media only screen and (max-width: 768px) {
+  .app .content-4-row {
+    height: 100%;
+  }
+  .content4-button {
+    margin-bottom: 30px;
+    transform: translate(150px, -20px);
+    border-radius: 18px;
+    height: 50px;
+    padding: 5px;
+    width: 130px;
+  }
+}

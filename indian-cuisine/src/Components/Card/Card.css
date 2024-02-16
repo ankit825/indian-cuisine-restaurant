@@ -1,0 +1,13 @@
+.card-container img {
+  border-radius: 0 !important;
+  height: 450px;
+}
+.card-container {
+  margin-top: 30px;
+  margin-right: 100px;
+}
+.card-container h1 {
+  text-align: center;
+  font-family: restaurant;
+  transform: translate(10px, 0);
+}

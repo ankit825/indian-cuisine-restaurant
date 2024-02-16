@@ -1,0 +1,79 @@
+.line {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.items {
+  height: 220px;
+}
+.items h4 {
+  font-size: 16px;
+  margin-left: 330px;
+  font-family: restaurant;
+}
+.items p {
+  inline-size: 600px;
+  overflow-wrap: break-word;
+  margin-left: 330px;
+  font-size: 11px;
+}
+.items img {
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+  float: right;
+  transform: translate(-320px, -60px);
+}
+.items h6 {
+  margin-left: 330px;
+  font-size: 12px;
+}
+.imageSection button {
+  float: right;
+  transform: translate(-208px, 40px);
+  width: 95px;
+  color: green;
+  font-size: 13px;
+  border: 1px solid gray;
+  background-color: white;
+  font-weight: 500;
+  border-radius: 20px;
+  height: 40px;
+}
+.btngroup {
+  border: 1px solid gray;
+
+  float: right;
+  transform: translate(-207px, 40px);
+  background-color: white;
+  border-radius: 20px !important;
+  height: 40px;
+  width: 95px;
+}
+.btngroup .add {
+  border: none;
+  background-color: white;
+  color: green;
+  outline: none;
+}
+.btngroup .remove {
+  /* transform: translate(-19px, 4px); */
+  /* margin-left: 28px; */
+  margin-left: 6px;
+  margin-top: 4px;
+  border: none;
+  background-color: white;
+  color: green;
+  outline: none;
+  box-shadow: none;
+}
+.btngroup span {
+  margin-left: 12px;
+  margin-right: 14px;
+  font-size: 13px;
+  color: green;
+}
+.btngroup button:focus {
+  border: none;
+  outline: none;
+}

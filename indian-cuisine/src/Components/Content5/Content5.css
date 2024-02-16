@@ -1,0 +1,36 @@
+.bgclass {
+  background: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.89)),
+    url("../../image/top-view-table-full-food.jpg");
+  margin-top: 100px;
+}
+.bgclass h5 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  transform: translate(0px, 90px);
+  margin-bottom: 30px;
+}
+.bgclass h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  transform: translate(0px, 100px);
+}
+span {
+  color: rgb(216, 108, 108);
+  background: none;
+}
+@media only screen and (max-width: 768px) {
+  .bgclass h1 {
+    font-size: 28px;
+    transform: translate(0px, 150px);
+  }
+  .bgclass h5 {
+    font-size: 17px;
+    transform: translate(0px, 150px);
+  }
+}
